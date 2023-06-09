@@ -1,0 +1,54 @@
+.home{
+  width: 100vw;
+  position: relative;
+  height: 1000vh;
+}
+.home-header{
+  width: 100vw;
+  height: 150px;
+  background-color: aqua;
+}
+.home-nav{
+  height: 40px;
+position: sticky;
+top: 0px;
+background-color: rgb(69, 50, 50);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+.home-nav_f1{
+  display: flex;
+  gap: 10px;
+  margin: 0 30px;
+}
+.home-nav_f1 button{
+  height: 30px;
+  width: 80px;
+
+}
+.home-body{
+  display: flex;
+  position: relative;
+}
+.home-body_f1-countries{
+  width: 20%;
+  background-color: aqua;
+}
+.home-body_f2-countries{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.home-body_f2-countries button{
+  width: 80%;
+  height: 30px;
+}
+.home-body_f1-countries h2{
+  text-align: center;
+  margin: 20px 0;
+}
