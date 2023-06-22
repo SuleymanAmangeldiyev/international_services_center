@@ -7,22 +7,13 @@ export default function Home() {
   return (
     <div className="home">
       <header className="home-header"></header>
-      <nav className="home-nav">
+       <nav className="home-nav">
         <div className="home-nav_f1">
           <button>Home</button>
-          <button>Chat</button>
-          <button>Saved</button>
-        </div>
-        <div className="home-nav_f1">
-          <input type="text" />
-          <button type="button">Filter</button>
-          <div className="home-nav_f2">
-            <button type="button">Profile</button>
-            <img src="" alt="avatar" />
-          </div>
-        </div>
-      </nav>
-      <section className="home-body">
+          <button>Chat</button></div>
+            </nav>
+            <main>
+       <section className="home-body">
         <section className="home-body_f1-countries">
           <h2>Countries</h2>
           <div className="home-body_f2-countries">
@@ -31,9 +22,8 @@ export default function Home() {
                 {country}
               </button>
             ))}
-          </div>
-        </section>
-        <main>
+          </div></section>
+            </section>
           <section className="home-sec-f1-s">
             <section className="home-sec-inner_s1">
               <div className="home-sec-inner_int1">
@@ -47,7 +37,6 @@ export default function Home() {
           <section className="home-sec-f1-s"></section>
           <section className="home-sec-f1-s"></section>
         </main>
-      </section>
-    </div>
+   </div>
   );
 }
