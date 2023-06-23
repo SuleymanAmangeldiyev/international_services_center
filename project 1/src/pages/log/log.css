@@ -1,0 +1,91 @@
+.login, .signup{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.log-main-header{
+padding: 10px;
+width: 50%;
+text-align: center;
+border-radius: 20px;
+background: #EFEDED;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.login01-section{
+  background-color: #DEDEDE;
+  width: 626px;
+height: 329px;
+border-radius: 30px;
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: center;
+justify-content: center;
+}
+.login02-section{
+  background-color: #DEDEDE;
+  width: 626px;
+height: 526px;
+border-radius: 30px;
+
+display: flex;
+flex-direction: column;
+gap: 30px;
+align-items: center;
+justify-content: center;
+}
+.login-section-f1{
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  gap: 100px;
+}
+
+.login01-section input,.login02-section input{
+  border-style: none;
+  display: block;
+  width: 382px;
+height: 42px;
+border-radius: 10px 10px 0px 0px;
+border-bottom: 2px solid #060000;
+background: #A7A7A7;
+}
+.login-btns-f1 button{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 159px;
+height: 32px;
+background-color: #FDFDFD;
+border: 2px solid #060000;
+border-radius: 30px;
+}
+.login-second-section01{
+  position: relative;
+}
+.backside{
+  position: absolute;
+  width: 342px;
+  height: 351px;
+  background-color: #060000;
+  border-radius: 30px;
+  left: -15px;
+  bottom: -15px;
+  z-index: 2;
+}
+.helper-Ai01{
+  padding: 20px;
+  width: 436px;
+  height: 535px;
+  position: relative;
+  background-color: #A7A7A7;
+  border: 2px solid black;
+  border-radius: 30px;
+  z-index: 100;
+}
