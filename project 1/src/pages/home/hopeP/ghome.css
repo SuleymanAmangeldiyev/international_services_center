@@ -1,0 +1,30 @@
+.ghome{
+  width: 2200px;
+ 
+  height: calc(8000px - 125px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ghome-header{
+  width: 95%;
+  height: 480px;
+  background-color: rebeccapurple;
+}
+.ghome-second_gyra{
+  margin-top: 10px;
+  width: 95%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+}
+.ghome-second_gyra div{
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  margin: 10px;
+}
