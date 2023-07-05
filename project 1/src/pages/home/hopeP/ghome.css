@@ -28,3 +28,68 @@
   background-color: black;
   margin: 10px;
 }
+.ghome-third_section{
+  display: flex;
+  margin-top: 10px;
+
+  border-bottom: 2px solid black;
+}
+.ghome-thd-div_1{
+  width: 800px;
+  height: calc((60px * 20) + (30px * 18));
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.ghome-thd-div_1 div{
+  width: 600px;
+  height: 60px;
+  background-color: black;
+}
+
+.ghome-thd-div_2{
+  width: 1400px;
+  height: 1800px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.ghome-thd-div_2-1{
+  height: 604px;
+  width: 1242px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+
+.ghome-thd-div_2-3{
+  height: 342px;
+  width: 1242px;
+  background-color: antiquewhite;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+.ghome-fou-grid{
+  display: grid;
+  grid-template-columns: 239px 239px 239px 239px 239px;
+   grid-template-columns: 322px 322px;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.ghome-fou-grid1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: red;
+  
+}
+.ghome-fou-grid1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: red;
+}
