@@ -1,0 +1,7 @@
+----------- in the first plase these should be done ------------
+1. markets
+2. hotels
+3. hospitals
+4. shops
+5. taxi services
+6. bus services
