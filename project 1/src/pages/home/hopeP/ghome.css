@@ -75,21 +75,46 @@
 }
 
 .ghome-fou-grid{
-  display: grid;
-  grid-template-columns: 239px 239px 239px 239px 239px;
-   grid-template-columns: 322px 322px;
-  gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+display: flex;
+gap: 20px;
 }
-.ghome-fou-grid1{
-  grid-column-start: 1;
-  grid-column-end: 2;
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 0fr 1fr 1fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    ". . ."
+    "grid-1 grid-2 grid-3"
+    "grid-4 grid-4 grid-4"; 
+  width: 500px; 
+  height: 500px; 
+  background-color: antiquewhite;
+}
+.grid-1 { grid-area: grid-1; 
+background-color: black;}
+.grid-2 { grid-area: grid-2; background-color: black;}
+.grid-3 { grid-area: grid-3; background-color: black;}
+.grid-4 { grid-area: grid-4; background-color: black;}
+
+.gridpag{
   background-color: red;
-  
+  width: 300px;
 }
-.ghome-fou-grid1{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  background-color: red;
+
+.container2 {
+  display: grid; 
+  grid-template-columns: 1.1fr 1fr 1fr; 
+  grid-template-rows: 0fr 1fr 1fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    ". . ."
+    "p1 p1 p1"
+    "p2 p3 p4"; 
+  width: 500px; 
+  height: 500px;  background-color: antiquewhite;
 }
+.p1 { grid-area: p1;  background-color: black;}
+.p2 { grid-area: p2;  background-color: black;}
+.p3 { grid-area: p3;  background-color: black;}
+.p4 { grid-area: p4;  background-color: black;}

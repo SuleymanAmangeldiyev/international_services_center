@@ -47,15 +47,19 @@ export default function Ghome() {
         </div>
       </section>
       <section className="ghome-fou-grid">
-        <div className="ghome-fou-grid1"></div>
-        <div className="ghome-fou-grid2"></div>
-        <div className="ghome-fou-grid3"></div>
-        <div className="ghome-fou-grid4"></div>
-        <div className="ghome-fou-grid5"></div>
-        <div className="ghome-fou-grid6"></div>
-        <div className="ghome-fou-grid7"></div>
-        <div className="ghome-fou-grid8"></div>
-        <div className="ghome-fou-grid9"></div>
+        <div class="container">
+          <div className="grid-1"></div>
+          <div className="grid-2"></div>
+          <div className="grid-3"></div>
+          <div className="grid-4"></div>
+        </div>
+        <div className="gridpag"></div>
+        <div class="container2">
+          <div className="p1"></div>
+          <div className="p2"></div>
+          <div className="p3"></div>
+          <div className="p4"></div>
+        </div>
       </section>
       <section></section>
       <section></section>
