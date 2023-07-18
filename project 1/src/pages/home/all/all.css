@@ -1,0 +1,97 @@
+.all-main {
+  display: flex;
+  gap: 10px;
+}
+.all_section-t {
+  width: 600px;
+  height: 50px;
+  background-color: antiquewhite;
+  margin: 10px;
+}
+.all_line-dik {
+  width: 5px;
+  background-color: black;
+}
+
+.all_second-flex-1 {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  justify-content: center;
+  margin: 20px;
+  width: 100%;
+}
+
+.all_second-flex-1-vido {
+  width: 200px;
+  height: 300px;
+  background-color: black;
+}
+.all_third-main-big {
+  width: 1340px;
+  height: 873px;
+  margin: 20px;
+  background-color: aquamarine;
+}
+
+.all-third-filex {
+  display: flex;
+}
+
+.all-thirds-big {
+  width: 684px;
+  height: 574px;
+  background-color: aqua;
+}
+.all-thirds-vidos {
+  width: 610px;
+  height: 122px;
+  background-color: black;
+  margin: 20px;
+}
+
+.all-five-main-flex {
+  display: flex;
+  gap: 20px;
+}
+.all-five_1 {
+  width: 700px;
+  height: 1050px;
+  background-color: black;
+}
+
+.all-five-services {
+  width: 600px;
+  height: 52px;
+  background-color: red;
+  margin: 20px;
+}
+
+.all-section-7-main {
+  display: flex;
+  gap: 20px;
+}
+.all-section-7-bigs {
+  width: 656px;
+  height: 844px;
+  background-color: blue;
+}
+
+.all-section-8-main {
+  display: flex;
+  gap: 10px;
+}
+
+.all-section-8-contets {
+  width: 600px;
+  height: 50px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.all-section-8-contets-2 {
+  width: 680px;
+  height: 530px;
+  margin: 10px;
+  background-color: yellow;
+}
