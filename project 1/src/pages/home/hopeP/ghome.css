@@ -118,3 +118,112 @@ background-color: black;}
 .p2 { grid-area: p2;  background-color: black;}
 .p3 { grid-area: p3;  background-color: black;}
 .p4 { grid-area: p4;  background-color: black;}
+
+
+.ghome-five_flex-main{
+  display: flex;
+
+}
+.ghome-five_flex-cont{
+  width: 530px;
+  height: 60px;
+  margin: 10px;
+  background-color: red;
+}
+
+.ghome-five_flex-cont_m{
+  width: 430px;
+  height: 60px;
+  background-color: red;
+  margin: 10px;
+}
+
+.ghome-five_flex_o{
+width: 240px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.section_ghome_6-main{
+  display: flex;
+  gap: 10px;
+}
+.section_ghome-6 {
+  display: grid; 
+  grid-template-columns: 1.1fr 1fr 1fr; 
+  grid-template-rows: 0fr 1fr 1fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    ". . ."
+    "section_hog-g1 section_hog-g2 section_hog-g2"
+    "section_hog-g1 section_hog-g3 section_hog-g3"; 
+  width: 1000px; 
+  height: 500px; 
+}
+.section_hog-g1 { grid-area: section_hog-g1; background-color: red;}
+.section_hog-g2 { grid-area: section_hog-g2; background-color: red; }
+.section_hog-g3 { grid-area: section_hog-g3; background-color: red; }
+
+
+
+.section_ghome-6-2 {
+  display: grid; 
+  grid-template-columns: 1.1fr 0.6fr 1.4fr; 
+  grid-template-rows: 0.6fr 0.7fr 0.3fr 1fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    "section-7 section-7-3 section-7-3"
+    "section-7 section-7-3 section-7-3"
+    "section-7-2 section-7-3 section-7-3"
+    "section-7-2 section-7-3 section-7-3"; 
+  width: 1000px; 
+  height: 204px; 
+}
+.section-7 { grid-area: section-7; background-color: aqua;}
+.section-7-2 { grid-area: section-7-2; background-color: aqua;}
+.section-7-3 { grid-area: section-7-3; background-color: aqua;}
+
+.section_ghome_6-main-2{
+  display: flex;
+margin: 10px;
+gap: 20px;
+}
+
+.section_ghome-6-3_main{
+  display: flex;
+  margin: 10px;
+  gap: 20px;
+}
+
+.section_ghome-6-3{
+  height: 105px;
+  width: 962px;
+  background-color: blue;
+}
+
+.section_7ghome-g1 {
+  display: grid; 
+  grid-template-columns: 0.8fr 0.8fr 1.5fr; 
+  grid-template-rows: 0.6fr 0.7fr; 
+  gap: 10px 10px; 
+  grid-template-areas: 
+    "section-8-hom-2 section-8-hom-3 section-8-hom-4"
+    "section-8-hom-1 section-8-hom-1 section-8-hom-4"; 
+  width: 1000px; 
+  height: 450px; 
+}
+.section-8-hom-1 { grid-area: section-8-hom-1; background-color: aqua;}
+.section-8-hom-2 { grid-area: section-8-hom-2; background-color: aqua;}
+.section-8-hom-3 { grid-area: section-8-hom-3; background-color: aqua;}
+.section-8-hom-4 { grid-area: section-8-hom-4; background-color: aqua;}
+
+.section_9-ghome{
+  width: 1000px;
+  height: 200px;
+  margin: 10px;
+  background-color: aquamarine;
+}
+.section-9-ghome-main{
+  display: flex;
+  gap: 10px;
+}
